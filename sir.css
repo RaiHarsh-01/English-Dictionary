@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    background-color: salmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3);
+    padding: 28px;
+    border-radius: 7px; 
+    width: 90%;
+    margin: 10px;
+    text-align: center;
+    max-width: 450px;
+    font-size: 18px;
+}
+#heading{
+    font-size: 28px;
+}
+#input{
+    height: 53px;
+    width: 300px;
+    padding: 0 38px;
+    font-size: 16px;
+    background-color: azure;
+    border-color: antiquewhite;
+    border-radius: 5px;
+}
+#meaning{
+    display: none;
+    
+}
